@@ -1,0 +1,22 @@
+$regular: 400;
+$bold: 700;
+$semi: 600;
+$ultra: 250;
+
+:root {
+  --border-wrapper: 120px;
+  --margin-wrapper: -120px;
+  --height-banner: 784px;
+  --ratio-banner: 1;
+  --height-search: 784px;
+  --ratio-search: 1;
+  --margin-section: 140px;
+}
+
+/* Ratio x 40px => font size */
+$title-size: 1;
+$text-size: 0.65;
+$btn-size: 0.4;
+$link-size: 0.45;
+
+$height-banner: 784px;

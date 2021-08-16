@@ -1,0 +1,68 @@
+.l-wrapper {
+  max-width: 1920px;
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.bg-header {
+  width: 100%;
+  max-width: 1920px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  z-index: 900;
+  transform: translateX(-50%);
+  background-color: #081730;
+}
+.toggle-menu {
+  display: none;
+}
+
+.header {
+  padding: 45px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  max-width: 1630px;
+  background-color: #081730;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+
+  &-logo {
+    width: 48px;
+    height: 51px;
+    margin-right: auto;
+  }
+  &-menu {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    &-item {
+      font-size: $link-size * 40px;
+      font-weight: $regular;
+    }
+    &-item:not(:last-child) {
+      margin-right: 80px;
+    }
+    &-item:last-child {
+      margin-right: 230px;
+    }
+    &-link {
+      color: white;
+    }
+  }
+  &-action {
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+  &-signup {
+    margin-right: 44px;
+  }
+}

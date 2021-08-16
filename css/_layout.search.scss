@@ -1,0 +1,160 @@
+.search {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  column-gap: 200px;
+  &-info {
+    width: 40%;
+    height: calc(95vh - 160px);
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+  }
+}
+.search-groupImg {
+  width: 50%;
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  &-box {
+    width: calc((95vh - 160px) / 2);
+    height: calc(95vh - 160px);
+    position: relative;
+    margin: 0 auto;
+    transition: all 1s;
+  }
+}
+
+.search-img {
+  &-equa {
+    max-width: 360%;
+    width: 360%;
+    z-index: 0;
+    left: 0%;
+    transition: all 1s;
+  }
+  &-1 {
+    transition: all 1s;
+  }
+  &-2 {
+    width: 60%;
+    top: 35%;
+    left: 95%;
+    transition: all 1s;
+  }
+  &-3 {
+    width: 45%;
+    top: 35%;
+    left: 38%;
+    transition: all 1s;
+  }
+  &-4 {
+    width: 83%;
+    top: 82%;
+    left: 65%;
+    transition: all 1s;
+  }
+}
+.search-groupInput {
+  display: flex;
+}
+.search-info {
+  &-title {
+    margin-bottom: 45px;
+  }
+  &-text {
+    margin-bottom: 45px;
+  }
+  &-input {
+    width: 80%;
+    padding: 25px 0px 25px 25px;
+    background-color: #020917;
+    font-size: 20px;
+    font-weight: $ultra;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    margin-right: 40px;
+    margin-bottom: 25px;
+  }
+  &-btn {
+    width: 78px;
+    height: 78px;
+    border-radius: 20px;
+    background-image: linear-gradient(-145deg, #f3071d, #e600ff);
+    & img {
+      border-radius: 20px;
+    }
+  }
+}
+.playlists {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 170px;
+  background-color: #232a4e;
+  border: 2px solid #020917;
+  border-radius: 20px;
+  padding: 15px;
+}
+.playlist {
+  &-top {
+    display: flex;
+    width: 100%;
+  }
+  &-img {
+    width: 36px;
+    height: 36px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  &-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &-name {
+    font-size: 16px;
+    font-weight: $regular;
+    color: white;
+  }
+  &-list {
+    height: 25px;
+    margin-left: auto;
+  }
+  &-artist {
+    font-size: 12px;
+    font-weight: $regular;
+    color: rgba(#ffffff, 0.3);
+  }
+  &-bot {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-time {
+    font-size: 9px;
+    font-weight: $semi;
+    color: rgba(#ffffff, 0.3);
+
+    display: flex;
+    align-items: center;
+    & img {
+      margin: 0 20px;
+    }
+  }
+  &-action {
+    display: flex;
+    align-items: center;
+  }
+  &-play {
+    width: 40px;
+    height: 40px;
+    margin: 0 30px;
+  }
+}

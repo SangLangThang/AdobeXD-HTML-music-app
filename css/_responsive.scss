@@ -1,0 +1,258 @@
+@media screen and (max-width: 1442px) {
+  .banner-img-2 {
+    top: 73%;
+  }
+  .banner-img-3 {
+    top: 86%;
+    left: 16%;
+  }
+  .banner-img-4 {
+    top: 85%;
+    left: 13%;
+  }
+  .banner-title {
+    font-size: 80px;
+  }
+  .search {
+    column-gap: 100px;
+  }
+}
+@media screen and (max-width: 1368px) {
+  .header-menu-item:last-child {
+    margin-right: 100px;
+  }
+  .banner-title {
+    font-size: 75px;
+  }
+}
+@media screen and (max-width: 1282px) {
+  .search-info-input {
+    padding: 20px 0px 20px 20px;
+  }
+  .search-info-btn {
+    width: 65px;
+    height: 65px;
+  }
+  .playlist-time img {
+    margin: 0 5px;
+    transform: scale(0.8);
+  }
+  .playlist-play {
+    width: 30px;
+    height: 30px;
+    margin: 0px 15px;
+  }
+  .playlists {
+    height: 130px;
+  }
+  .banner-desc {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 1026px) {
+  .header-menu-item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .header-menu-item:last-child {
+    margin-right: 30px;
+  }
+  .header-signup {
+    margin-right: 30px;
+  }
+
+  .banner-title {
+    font-size: 60px;
+    margin-bottom: 25px;
+  }
+
+  .section-title {
+    font-size: 35px;
+  }
+  .experience-box-img img {
+    width: 90px;
+    height: 90px;
+  }
+  .experience-box-img {
+    margin-bottom: 30px;
+  }
+  .section-text {
+    font-size: 20px;
+  }
+
+  .search-info {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .header-menu {
+    padding-top: 50px;
+    row-gap: 20px;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 0%;
+    right: -100%;
+    width: 200px;
+    height: 100vh;
+    background-color: #020917;
+    transition: all 0.3s;
+    z-index: 200;
+  }
+  .toggle-menu {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    & img {
+      width: 25px;
+    }
+  }
+  .wrapper-main {
+    height: 1024px;
+  }
+  .banner {
+    flex-direction: column;
+    height: auto;
+    &-info {
+      order: 1;
+      width: 100%;
+      text-align: center;
+      height: auto;
+      margin: 30px auto;
+    }
+    &-groupImg {
+      width: 100%;
+    }
+    &-img-equa {
+      left: 50%;
+    }
+    &-text {
+      margin: 25px 0;
+    }
+  }
+  .section-text {
+    width: 60%;
+    margin: 0 auto 30px;
+  }
+  .experience-boxs {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .experience-box {
+    width: 100%;
+    align-items: center;
+    &-title {
+      margin-bottom: 20px;
+    }
+    &-desc {
+      margin-bottom: 30px;
+    }
+  }
+
+  .search {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .search-info {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & .section-img {
+      order: 0;
+    }
+    & .search-groupInput {
+      order: 4;
+      width: 80%;
+      justify-content: space-between;
+    }
+    &-title {
+      text-align: center;
+      margin-bottom: 30px;
+      order: 2;
+    }
+    &-text {
+      text-align: center;
+      order: 3;
+    }
+    & .playlists {
+      order: 5;
+    }
+  }
+  .search-groupImg {
+    height: 100%;
+  }
+  .search-img-equa {
+    left: 50%;
+  }
+  .footer-menu-item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  .playlists {
+    height: 160px;
+    width: 80%;
+  }
+  .playlist-bot {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 482px) {
+  .banner-title {
+    font-size: 40px;
+  }
+  .section-text {
+    font-size: 16px;
+    width: 100%;
+  }
+  .banner-download,
+  .download-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+  }
+  .banner-download-img:last-child {
+    margin-left: 0px;
+  }
+  .download-img img:last-child {
+    margin-left: 0px;
+  }
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+  }
+  .footer-social {
+    margin-bottom: 30px;
+  }
+  .footer-menu-item:not(:last-child) {
+    margin-right: 0px;
+  }
+  .footer-copy {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .footer-social-item:not(:last-child) {
+    margin-right: 25px;
+  }
+  .search-img-4 {
+    top: 73%;
+  }
+  .search-info {
+    height: auto;
+    margin: 20px auto;
+  }
+}
+@media screen and (max-width: 377px) {
+  .header-signup {
+    margin-right: 5px;
+  }
+}

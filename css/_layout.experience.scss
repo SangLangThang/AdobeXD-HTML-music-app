@@ -1,0 +1,33 @@
+.experience {
+  text-align: center;
+  margin-top: 50px;
+  &-boxs {
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+  }
+}
+.experience-box {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+  &-img {
+    margin-bottom: 50px;
+  }
+  &-title {
+    color: white;
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+  &-desc {
+    margin-bottom: 55px;
+  }
+  &-link {
+    color: #e600ff;
+    font-size: 20px;
+    text-decoration: underline;
+    margin: auto auto 0;
+    width: fit-content;
+  }
+}

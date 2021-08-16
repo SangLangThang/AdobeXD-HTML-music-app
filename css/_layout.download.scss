@@ -1,0 +1,18 @@
+.download {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 0;
+  &-text {
+    margin-top: 55px;
+    max-width: 50%;
+    margin-bottom: 95px;
+  }
+  &-img {
+    & img:last-child {
+      margin-left: 45px;
+    }
+  }
+}

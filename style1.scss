@@ -1,0 +1,128 @@
+/*===== GOOGLE FONTS =====*/
+@font-face {
+  font-family: "Sofia Pro";
+  font-style: normal;
+  src: local("Sofia Pro"), url("../fonts/SofiaProRegularAz.woff") format("woff");
+}
+/*===== VARIABLES CSS =====*/
+:root {
+  --header-height: 3rem;
+
+  /*========== Colors ==========*/
+  --first-color: #081730;
+  --second-color: #020917;
+
+  --link-color: #e600ff;
+  --text-color-light: rgba(255, 255, 255, 0.3);
+
+  /*========== Font and typography ==========*/
+  --body-font: "Sofia Pro", sans-serif;
+
+  --h1-font-size: 9rem;
+  --h3-font-size: 4rem;
+
+  --normal-font-size: 2.6rem;
+  --small-font-size: 1.6rem;
+
+  /* @media screen and (min-width: 768px) {
+    --biggest-font-size: 4rem;
+    --h1-font-size: 2.25rem; 
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+  } */
+
+  /*========== Font weight ==========*/
+  --font-ultra: 250;
+  --font-regular: 400;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+
+  /*========== Margenes ==========*/
+  --mb-1: 0.5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  --mb-5: 2.5rem;
+  --mb-6: 3rem;
+}
+
+/*========== BASE ==========*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: var(--header-height) 0 0 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  color: white;
+  background-color: var(--first-color);
+}
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*========== CLASS CSS ==========*/
+.section {
+  max-width: 1630px;
+  padding: 0 15px;
+  margin: 0 auto;
+  &-title,
+  &-subtitle {
+    text-align: center;
+  }
+
+  &-title {
+    font-size: var(--h3-font-size);
+    font-weight: var(--bold);
+    span {
+      font-weight: var(--ultra);
+    }
+  }
+  &-subtitle {
+    display: block;
+    color: var(--text-color-light);
+    font-weight: var(--ultra);
+  }
+}
+/*========== LAYOUT ==========*/
+.bd-container {
+  max-width: 1920px;
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+}
+
+.bd-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+.l-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: var(--first-color);
+}
